@@ -4,51 +4,67 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
 <url>
   <loc>https://www.auv2022.org/</loc>
-  <lastmod>2022-06-26T16:37:13+00:00</lastmod>
+  <lastmod>2022-08-19T02:37:12+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://www.auv2022.org/index.html</loc>
-  <lastmod>2022-06-26T16:37:13+00:00</lastmod>
+  <lastmod>2022-08-19T02:37:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.auv2022.org/about.html</loc>
-  <lastmod>2022-06-26T16:37:13+00:00</lastmod>
+  <lastmod>2022-08-19T02:37:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.auv2022.org/dates.html</loc>
-  <lastmod>2022-06-26T16:37:13+00:00</lastmod>
+  <lastmod>2022-08-19T02:37:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.auv2022.org/paper_submission.html</loc>
-  <lastmod>2022-06-26T16:37:13+00:00</lastmod>
+  <loc>https://www.auv2022.org/schedule.html</loc>
+  <lastmod>2022-08-19T02:37:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.auv2022.org/registration.html</loc>
-  <lastmod>2022-06-26T16:37:13+00:00</lastmod>
+  <loc>https://www.auv2022.org/plenary.html</loc>
+  <lastmod>2022-08-19T02:37:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.auv2022.org/panel.html</loc>
+  <lastmod>2022-08-19T02:37:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.auv2022.org/whyparticipate.html</loc>
-  <lastmod>2022-06-26T16:37:13+00:00</lastmod>
+  <lastmod>2022-08-19T02:37:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.auv2022.org/paper_submission.html</loc>
+  <lastmod>2022-08-19T02:37:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.auv2022.org/registration.html</loc>
+  <lastmod>2022-08-19T02:37:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.auv2022.org/exhibit.html</loc>
-  <lastmod>2022-06-26T16:37:13+00:00</lastmod>
+  <lastmod>2022-08-19T02:37:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.auv2022.org/travel.html</loc>
-  <lastmod>2022-06-26T16:37:13+00:00</lastmod>
+  <lastmod>2022-08-19T02:37:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
