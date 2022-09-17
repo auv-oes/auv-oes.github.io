@@ -2,3 +2,5 @@
 
 User-agent: *
 Disallow:
+/schedule/
+/schedule_format2.html

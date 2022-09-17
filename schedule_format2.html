@@ -1,0 +1,1564 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="Rajat Mishra" content="IEEE OES AUV Symposium" />
+
+    <!-- Stylesheets
+	============================================= -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Raleway:300,400,500,600,700|Crete+Round:400i"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="css/swiper.css" type="text/css" />
+    <link rel="stylesheet" href="css/dark.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+    <link rel="stylesheet" href="css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Document Title
+	============================================= -->
+    <title>AUV 2022 | OES Autonomonous Underwater Vehicle Symposium 2022</title>
+
+    <style type="text/css">
+      .ritz .waffle a {
+        color: inherit;
+      }
+      .ritz .waffle .s1 {
+        border-bottom: 1px SOLID #000000;
+        border-right: 1px SOLID #000000;
+        background-color: #d9d9d9;
+        text-align: center;
+        font-weight: bold;
+        color: #000000;
+        font-family: "docs-Helvetica Neue", Arial;
+        font-size: 1.25vw;
+        vertical-align: middle;
+        white-space: nowrap;
+        direction: ltr;
+        padding: 2px 3px 2px 3px;
+      }
+      .ritz .waffle .s2 {
+        border-bottom: 1px SOLID #000000;
+        border-right: 1px SOLID #000000;
+        background-color: #ffffff;
+        text-align: center;
+        color: #000000;
+        font-family: "docs-Helvetica Neue", Arial;
+        font-size: 1.25vw;
+        vertical-align: middle;
+        white-space: nowrap;
+        direction: ltr;
+        padding: 2px 3px 2px 3px;
+      }
+      .ritz .waffle .s9 {
+        border-bottom: 1px SOLID #000000;
+        border-right: 1px SOLID #000000;
+        background-color: #d9d2e9;
+        text-align: center;
+        color: #000000;
+        font-family: "docs-Helvetica Neue", Arial;
+        font-size: 1.25vw;
+        vertical-align: middle;
+        white-space: nowrap;
+        direction: ltr;
+        padding: 2px 3px 2px 3px;
+      }
+      .ritz .waffle .s10 {
+        border-bottom: 1px SOLID #000000;
+        border-right: 1px SOLID #000000;
+        background-color: #a0f5eb;
+        text-align: center;
+        color: #000000;
+        font-family: "docs-Helvetica Neue", Arial;
+        font-size: 1.25vw;
+        vertical-align: middle;
+        white-space: nowrap;
+        direction: ltr;
+        padding: 2px 3px 2px 3px;
+      }
+      .ritz .waffle .s6 {
+        border-bottom: 1px SOLID #000000;
+        border-right: 1px SOLID #000000;
+        background-color: #fff2cc;
+        text-align: center;
+        color: #000000;
+        font-family: "docs-Helvetica Neue", Arial;
+        font-size: 1.25vw;
+        vertical-align: middle;
+        white-space: nowrap;
+        direction: ltr;
+        padding: 2px 3px 2px 3px;
+      }
+      .ritz .waffle .s8 {
+        border-right: 1px SOLID #000000;
+        background-color: #d9d2e9;
+        text-align: center;
+        color: #000000;
+        font-family: "docs-Helvetica Neue", Arial;
+        font-size: 1.25vw;
+        vertical-align: middle;
+        white-space: nowrap;
+        direction: ltr;
+        padding: 2px 3px 2px 3px;
+      }
+      .ritz .waffle .s7 {
+        border-bottom: 1px SOLID #000000;
+        border-right: 1px SOLID #000000;
+        background-color: #bfefad;
+        text-align: center;
+        color: #000000;
+        font-family: "docs-Helvetica Neue", Arial;
+        font-size: 1.25vw;
+        vertical-align: middle;
+        white-space: nowrap;
+        direction: ltr;
+        padding: 2px 3px 2px 3px;
+      }
+      .ritz .waffle .s4 {
+        border-bottom: 1px SOLID #000000;
+        border-right: 1px SOLID #000000;
+        background-color: #ffc0b7;
+        text-align: center;
+        color: #000000;
+        font-family: "docs-Helvetica Neue", Arial;
+        font-size: 1.25vw;
+        vertical-align: middle;
+        white-space: nowrap;
+        direction: ltr;
+        padding: 2px 3px 2px 3px;
+      }
+      .ritz .waffle .s0 {
+        border-bottom: 1px SOLID #000000;
+        border-right: 1px SOLID #000000;
+        background-color: #d9d9d9;
+        text-align: left;
+        color: #000000;
+        font-family: "docs-Helvetica Neue", Arial;
+        font-size: 1.25vw;
+        vertical-align: middle;
+        white-space: nowrap;
+        direction: ltr;
+        padding: 2px 3px 2px 3px;
+      }
+      .ritz .waffle .s3 {
+        border-bottom: 1px SOLID #000000;
+        border-right: 1px SOLID #000000;
+        background-color: #99d9ff;
+        text-align: center;
+        color: #000000;
+        font-family: "docs-Helvetica Neue", Arial;
+        font-size: 1.25vw;
+        vertical-align: middle;
+        white-space: normal;
+        overflow: hidden;
+        word-wrap: break-word;
+        direction: ltr;
+        padding: 2px 3px 2px 3px;
+      }
+      .ritz .waffle .s5 {
+        border-bottom: 1px SOLID #000000;
+        border-right: 1px SOLID #000000;
+        background-color: #e6bd00;
+        text-align: center;
+        color: #000000;
+        font-family: "docs-Helvetica Neue", Arial;
+        font-size: 1.25vw;
+        vertical-align: middle;
+        white-space: nowrap;
+        direction: ltr;
+        padding: 2px 3px 2px 3px;
+      }
+      .ritz .waffle .s11 {
+        border-bottom: 1px SOLID #000000;
+        border-right: 1px SOLID #000000;
+        background-color: #ffffff;
+        text-align: left;
+        color: #000000;
+        font-family: "docs-Helvetica Neue", Arial;
+        font-size: 1.25vw;
+        vertical-align: middle;
+        white-space: nowrap;
+        direction: ltr;
+        padding: 2px 3px 2px 3px;
+      }
+    </style>
+  </head>
+
+  <body class="stretched no-transition">
+    <!-- Document Wrapper
+	============================================= -->
+    <div id="wrapper" class="clearfix">
+      <!-- Header
+		============================================= -->
+      <header id="header" class="full-header dark">
+        <div id="header-wrap">
+          <div class="container clearfix">
+            <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+            <!-- Logo
+					============================================= -->
+            <div id="logo">
+              <a
+                href="index.html"
+                class="standard-logo"
+                data-dark-logo="img/auv2022-logo.png"
+                alt="AUV Symposium"
+              >
+                <img
+                  style="padding: 10px"
+                  src="img/auv2022-logo.png"
+                  alt="AUV Symposium"
+                />
+              </a>
+              <a
+                href="index.html"
+                class="retina-logo"
+                data-dark-logo="img/auv2022-logo.png"
+                alt="AUV Symposium"
+              >
+                <img
+                  style="padding: 10px"
+                  src="img/auv2022-logo.png"
+                  alt="AUV Symposium"
+                />
+              </a>
+            </div>
+            <!-- #logo end -->
+
+            <!-- Primary Navigation
+					============================================= -->
+            <nav id="primary-menu" class="dark with-arrows">
+              <ul>
+                <li>
+                  <a href="index.html"><div>Home</div></a>
+                </li>
+                <li>
+                  <a><div>About</div></a>
+                  <ul>
+                    <li>
+                      <a href="about.html#loc"
+                        ><div>Local organizing committee</div></a
+                      >
+                    </li>
+                    <li>
+                      <a href="about.html#toc"
+                        ><div>Technical oversight committee</div></a
+                      >
+                    </li>
+                    <li>
+                      <a href="about.html#contact"><div>Contact Us</div></a>
+                    </li>
+                    <li>
+                      <a href="about.html#flyers"
+                        ><div>Downloadable flyers</div></a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <!-- <li><a href="#"><div>Papers & Posters</div></a>
+							</li> -->
+                <li>
+                  <a href="dates.html"><div>Important Dates</div></a>
+                </li>
+                <li>
+                  <a
+                    ><div>
+                      Program<sup style="vertical-align: top; line-height: 15px"
+                        ><i
+                          class="icon-circle"
+                          style="color: #e74c3c; font-size: xx-small"
+                        ></i
+                      ></sup></div
+                  ></a>
+                  <ul>
+                    <li>
+                      <a href="schedule.html"><div>Program Schedule</div></a>
+                    </li>
+                    <li>
+                      <a href="plenary.html"><div>Plenaries</div></a>
+                    </li>
+                    <li>
+                      <a href="panel.html"><div>Panel Session</div></a>
+                    </li>
+                    <li>
+                      <a href="whyparticipate.html#tcomsvisit"
+                        ><div>TCOMS Site Visit</div></a
+                      >
+                    </li>
+                    <li>
+                      <a href="whyparticipate.html#awards"><div>Awards</div></a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a><div>Participate</div></a>
+                  <ul>
+                    <li>
+                      <a href="paper_submission.html"
+                        ><div>Paper Submission</div></a
+                      >
+                    </li>
+                    <li>
+                      <a href="paper_submission.html#studenttravelgrant"
+                        ><div>Student Travel Grant</div></a
+                      >
+                    </li>
+                    <li>
+                      <a href="registration.html"
+                        ><div>Attendee Registration</div></a
+                      >
+                    </li>
+                    <li>
+                      <a href="whyparticipate.html"
+                        ><div>Why Participate</div></a
+                      >
+                    </li>
+                    <li>
+                      <a href="exhibit.html"
+                        ><div>Exhibitors & Sponsors</div></a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="https://sauvc.org/"><div>SAUVC 2022</div></a>
+                </li>
+                <li>
+                  <a><div>Travel Info</div></a>
+                  <ul>
+                    <li>
+                      <a href="travel.html#visaletter"
+                        ><div>Visa Letters</div></a
+                      >
+                    </li>
+                    <li>
+                      <a href="travel.html#covid19"
+                        ><div>COVID-19 and entry rules</div></a
+                      >
+                    </li>
+                    <li>
+                      <a href="travel.html#visa"><div>Visa rules</div></a>
+                    </li>
+                    <li>
+                      <a href="travel.html#travelin"
+                        ><div>Travel to Singapore</div></a
+                      >
+                    </li>
+                    <li>
+                      <a href="travel.html#travelaround"
+                        ><div>Travel around Singapore</div></a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+
+              <!-- Top Search
+						============================================= -->
+              <div id="top-search">
+                <a href="#" id="top-search-trigger"
+                  ><i class="icon-search3"></i><i class="icon-line-cross"></i
+                ></a>
+                <form action="search.html" method="get">
+                  <input
+                    type="text"
+                    name="q"
+                    class="form-control"
+                    value=""
+                    placeholder="Type &amp; Hit Enter.."
+                  />
+                </form>
+              </div>
+              <!-- #top-search end -->
+            </nav>
+            <!-- #primary-menu end -->
+          </div>
+        </div>
+      </header>
+      <!-- #header end -->
+
+      <!-- Page Title
+		============================================= -->
+      <section id="page-title">
+        <div class="container clearfix">
+          <h1>Program Schedule</h1>
+          <span>
+            We have an amazing line of speakers and technical talks for
+            you.</span
+          >
+        </div>
+      </section>
+      <!-- #page-title end -->
+
+      <!-- Content
+		============================================= -->
+      <section id="schedule">
+        <div class="content-wrap">
+          <div class="container clearfix">
+            <p class="lead" style="margin-top: -3%">
+              Please click on the text in the time-slots to see more details -
+            </p>
+
+            <div class="ritz grid-container" dir="ltr">
+              <table class="waffle" cellspacing="0" cellpadding="0">
+                <tbody>
+                  <tr style="height: 20px">
+                    <td class="s0"></td>
+                    <td class="s1" dir="ltr">Sept 18, 2022</td>
+                    <td class="s1" dir="ltr">Sept 19, 2022</td>
+                    <td class="s1" dir="ltr">Sept 20, 2022</td>
+                    <td class="s1" dir="ltr">Sept 21, 2022</td>
+                  </tr>
+                  <tr style="height: 58px">
+                    <td class="s0" dir="ltr">08:30 - 08:45</td>
+                    <td class="s2"></td>
+                    <td class="s3" dir="ltr">
+                      <a href="#oa01">
+                        General Chair&#39;s Welcome <br />
+                        &amp; Opening Address
+                      </a>
+                    </td>
+                    <td class="s2" dir="ltr"></td>
+                    <td class="s2" dir="ltr" rowspan="2">
+                      <a href="#ts09">
+                      Technical Session #9
+                    </a>
+                    </td>
+                  </tr>
+                  <tr style="height: 57px">
+                    <td class="s0" dir="ltr">08:45 - 09:30</td>
+                    <td class="s2"></td>
+                    <td class="s4" dir="ltr">
+                      <a href = "#pl01">Plenary Session</a></td>
+                    <td class="s4" dir="ltr"><a href = "#pl02">Plenary Session</a></td>
+                  </tr>
+                  <tr style="height: 44px">
+                    <td class="s0" dir="ltr">09:30 - 10:00</td>
+                    <td class="s2"></td>
+                    <td class="s5" dir="ltr">Coffee Break</td>
+                    <td class="s5" dir="ltr">Coffee Break</td>
+                    <td class="s5" dir="ltr">Coffee Break</td>
+                  </tr>
+                  <tr style="height: 78px">
+                    <td class="s0" dir="ltr">10:00 - 11:15</td>
+                    <td class="s2"></td>
+                    <td class="s2" dir="ltr"><a href = "#ts01">Technical Session #1</a></td>
+                    <td class="s2" dir="ltr"><a href = "#ts05">Technical Session #5</a></td>
+                    <td class="s2" dir="ltr"><a href = "#ts10">Technical Session #10</a></td>
+                  </tr>
+                  <tr style="height: 20px">
+                    <td class="s0" dir="ltr">11:15 - 11:30</td>
+                    <td class="s2"></td>
+                    <td class="s6" dir="ltr">Break</td>
+                    <td class="s6" dir="ltr">Break</td>
+                    <td class="s6" dir="ltr" rowspan="2">Break</td>
+                  </tr>
+                  <tr style="height: 19px">
+                    <td class="s0" dir="ltr" rowspan="2">11:30 - 12:45</td>
+                    <td class="s2" rowspan="2"></td>
+                    <td class="s2" dir="ltr" rowspan="2">
+                      <a href = "#ts02">Technical Session #2</a>
+                    </td>
+                    <td class="s2" dir="ltr" rowspan="2">
+                      <a href = "#ts06">Technical Session #6</a>
+                    </td>
+                  </tr>
+                  <tr style="height: 65px">
+                    <td class="s4" dir="ltr"><a href = "#pl03">Plenary Session</a></td>
+                  </tr>
+                  <tr style="height: 67px">
+                    <td class="s0" dir="ltr">12:45 - 14:00</td>
+                    <td class="s2"></td>
+                    <td class="s7" dir="ltr">Lunch</td>
+                    <td class="s7" dir="ltr">Lunch</td>
+                    <td class="s7" dir="ltr">Lunch</td>
+                  </tr>
+                  <tr style="height: 82px">
+                    <td class="s0" dir="ltr">14:00 - 15:15</td>
+                    <td class="s2"></td>
+                    <td class="s2" dir="ltr"><a href = "#ts03">Technical Session #3</a></td>
+                    <td class="s2" dir="ltr"><a href = "#ts07">Technical Session #7</a></td>
+                    <td class="s2" dir="ltr" rowspan="2">TCOMS Visit</td>
+                  </tr>
+                  <tr style="height: 49px">
+                    <td class="s0" dir="ltr">15:15 - 16:00</td>
+                    <td class="s2"></td>
+                    <td class="s5" dir="ltr">Coffee Break</td>
+                    <td class="s5" dir="ltr">Coffee Break</td>
+                  </tr>
+                  <tr style="height: 77px">
+                    <td class="s0" dir="ltr">16:00 - 17:15</td>
+                    <td class="s2"></td>
+                    <td class="s2" dir="ltr"><a href = "#ts04">Technical Session #4</a></td>
+                    <td class="s2" dir="ltr" rowspan="2">
+                      <a href = "#ts08">Technical Session #8</a>
+                    </td>
+                    <td class="s2" rowspan="10"></td>
+                  </tr>
+                  <tr style="height: 31px">
+                    <td class="s0" dir="ltr" rowspan="2">17:15 - 17:30</td>
+                    <td class="s8" dir="ltr">Registration</td>
+                    <td class="s6" dir="ltr" rowspan="2">Break</td>
+                  </tr>
+                  <tr style="height: 1px">
+                    <td class="s9" dir="ltr"></td>
+                    <td class="s6" dir="ltr" rowspan="3">Break</td>
+                  </tr>
+                  <tr style="height: 20px">
+                    <td class="s0" dir="ltr" rowspan="2">17:30 - 18:00</td>
+                    <td class="s10" dir="ltr" rowspan="6">Ice-breaker</td>
+                    <td class="s4" dir="ltr" rowspan="5"><a href = "panel.html">Panel Session</a></td>
+                  </tr>
+                  <tr style="height: 15px"></tr>
+                  <tr style="height: 14px">
+                    <td class="s0" dir="ltr" rowspan="3">18:00 - 19:00</td>
+                    <td class="s3" dir="ltr" rowspan="5">
+                      Gala Dinner <br />
+                      &amp; <br />
+                      Awards Ceremony <br />
+                      @ 6.45 pm onwards
+                    </td>
+                  </tr>
+                  <tr style="height: 25px"></tr>
+                  <tr style="height: 1px"></tr>
+                  <tr style="height: 45px">
+                    <td class="s0" dir="ltr">19:00 - 20:00</td>
+                    <td class="s2" rowspan="2"></td>
+                  </tr>
+                  <tr style="height: 48px">
+                    <td class="s0" dir="ltr">20:00 - 21:00</td>
+                    <td class="s11"></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="line"></div>
+
+      <section id="oa01">
+        <div class="content-wrap">
+          <div class="container clearfix">
+            <h3>General Chair's Welcome - Dr. Venugopalan Pallayil</h3>
+            <h4 style="margin-top: -2%">19th Sept, 2022 | 08:30 - 08:35</h4>
+
+            <div id="posts" class="events small-thumbs">
+              <div class="entry clearfix">
+                <div class="entry-image center">
+                  <img src="img/venu.jpg" alt="Dr. Venugopalan Pallayil" />
+                </div>
+                <div class="entry-c">
+                  <div class="entry-title">
+                    <h4><code>In-Person</code></h4>
+                  </div>
+                  <div class="entry-content">
+                    <strong>About the speaker:</strong>Venugopalan Pallayil, or
+                    Venu as he is popularly known among his friends, has a post
+                    graduate degree in physics and a Ph.D in Microwave
+                    Electronics both from Cochin University of Science and
+                    Technology, India. He had been a reciepient of many research
+                    fellowships from reputed Indian Scientific Organisations
+                    such as ISRO, CSIR and DAE during the period of his PhD
+                    work. In 1986 he was selected for a 1 year Electronics
+                    Fellowship Course by the Government of India and after the
+                    successful completion of the course was posted as a
+                    Scientist in Naval Physical and Oceanographic Laboratory
+                    (NPOL), Cochin, India. In NPOL he worked as an R&D Scientist
+                    contributing to the Indian Defence Research & Development
+                    with major contributions in the field of air-borne ASW
+                    systems. In 1998 he joined Acoustic Research Laboratory as a
+                    Research Fellow and currently is a Principal Research
+                    Fellow.<br />
+                    <br />Venu is a Senior Member of IEEE, member of Acoustical
+                    Society of America and Society of Acoustics (Singapore). He
+                    is an elected member of the Administrative Committee for
+                    IEEE OES, USA. He has served the local IEEE Oceanographic
+                    Engineering Society in various capacities such as Chair,
+                    Vice-Chair and Treasurer. He was the Chair for Finance for
+                    the IEEE OCEANS 2006 Conference and also as Chair for
+                    Exhibits for the WESPAC 2015 conference held in Singapore.
+                    He served as the co-Chair and Chair for the Singapore AUV
+                    Challenge 2013 and 2014 respectively and continue to serve
+                    as its chair for sponsorship since 2013. He served on the
+                    OTC Asia Conference as a OES Programme Committee member in
+                    2014, Co-Chair in 2016 and as Chair in 2018. He won the IEEE
+                    OES Presidents award in 2018 for his exemplary services to
+                    the Society. He is busy on week ends cooking Kerala dishes
+                    at home and enjoy sports.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <h3>Opening Address - Prof. Chan Eng Soon</h3>
+            <h4 style="margin-top: -2%">19th Sept, 2022 | 08:35 - 08:45</h4>
+
+            <div id="posts" class="events small-thumbs">
+              <div class="entry clearfix">
+                <div class="entry-image center">
+                  <img
+                    src="img/chanengsoon.jpeg"
+                    alt="Professor Chan Eng Soon"
+                  />
+                </div>
+                <div class="entry-c">
+                  <div class="entry-title">
+                    <h4><code>In-Person</code></h4>
+                  </div>
+                  <div class="entry-content">
+                    <strong>About the speaker:</strong> Professor Chan Eng Soon
+                    is the Chief Executive Officer of the Technology Centre for
+                    Offshore and Marine, Singapore, and the Director of
+                    Research, Office of the Deputy President (Research &
+                    Technology), National University of Singapore. Prior to his
+                    current appointments, he held several key appointments in
+                    the National University of Singapore, including being the
+                    Vice Provost (Special Duties) in the Provost Office, Keppel
+                    Chair Professor at the Department of Civil & Environmental
+                    Engineering, Dean of Engineering, Head of the then Civil
+                    Engineering Department, Director of the Tropical Marine
+                    Science Institute and Executive Director of the Centre for
+                    Offshore Research and Engineering at NUS. He has also served
+                    in the Management Board of several institutions and research
+                    laboratories/centres, including the Centre for Remote
+                    Imaging, Sensing and Processing, Institute for Mathematical
+                    Sciences, Temasek Laboratories, Temasek Defence Systems
+                    Institute and the Tropical Marine Science Institute. He is
+                    currently a member of the Workplace Safety and Health
+                    Council. He also served in the PUB Board and the Board of
+                    the DSO National Laboratories. <br /><br />
+                    Professor Chan received his Bachelor of Engineering and
+                    Master of Engineering degrees from the University of
+                    Singapore/NUS in 1980 and 1982 respectively. He received his
+                    Doctor of Science degree from the Massachusetts Institute of
+                    Technology in 1986.
+                    <br /><br />
+                    Professor Chan’s research interests and activities are
+                    focused on marine processes, including marine hydrodynamics,
+                    wave-structure interactions, sediment transport and coastal
+                    protection.
+                    <br /><br />
+                    Prof Chan is a Fellow of the Singapore Academy of
+                    Engineering, Institute of Marine Engineering, Science and
+                    Technology, and the Institution of Engineers, Singapore.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="line"></div>
+
+      <section id="pl01">
+        <div class="content-wrap">
+          <div class="container clearfix">
+            <h3>Plenary Session - Prof. Stefan Williams</h3>
+            <h4 style="margin-top: -2%">19th Sept, 2022 | 08:45 - 09:30</h4>
+
+            <div id="posts" class="events small-thumbs">
+              <div class="entry clearfix">
+                <div class="entry-image center">
+                  <img
+                    src="img/stefanwilliams.jpg"
+                    alt="Prof Stefan Williams"
+                  />
+                </div>
+                <div class="entry-c">
+                  <div class="entry-title">
+                    <h3>
+                      Challenges in Deploying Robust Autonomy for Robotic
+                      Exploration in Marine Environments
+                    </h3>
+                    <h4 style="margin-top: -3%"><code>Virtual</code></h4>
+                  </div>
+                  <div class="entry-content">
+                    <p>
+                      <strong>Abstract:</strong> This talk will describe
+                      insights gained from over a decade of autonomous marine
+                      systems development at the University of Sydney’s
+                      Australian Centre for Field Robotics. Over the course of
+                      this time, we have developed and deployed numerous
+                      underwater vehicles and imaging platforms in support of
+                      applications in engineering science, marine ecology,
+                      archaeology and geoscience. We have operated an
+                      Australia-wide benthic observing program designed to
+                      deliver precisely navigated, repeat imagery of the
+                      seafloor. This initiative makes extensive use of
+                      Autonomous Underwater Vehicles (AUVs) to collect
+                      high-resolution stereo imagery, multibeam sonar and water
+                      column measurements on an annual or semi-annual basis at
+                      sites around Australia, spanning the full latitudinal
+                      range of the continent from tropical reefs in the north to
+                      temperate regions in the south. The program has been very
+                      successful over the past decade, collecting millions of
+                      images of the seafloor around Australia and making these
+                      available to the scientific community through online data
+                      portals. These observations are providing important
+                      insights into the dynamics of key ecological sites and
+                      their responses to changes in oceanographic conditions
+                      through time. We have also contributed to expeditions to
+                      document coral bleaching, cyclone recovery, submerged
+                      neolithic settlement sites, ancient shipwrecks, methane
+                      seeps and deepwater hydrothermal vents. The talk will also
+                      consider some of our more recent work focused on
+                      developing automated tools for working with this imagery
+                      and illustrate how this is being used to inform further
+                      exploration work using these platforms.
+                    </p>
+                    <p>
+                      <strong>About the speaker:</strong> Stefan Williams is the
+                      Director of the Digital Sciences Initiative at the
+                      University of Sydney and Professor of Marine Robotics at
+                      the Australian Centre for Field Robotics. He leads the
+                      Marine Systems group within the ACFR and is the head of
+                      Australia’s Integrated Marine Observing System Autonomous
+                      Underwater Vehicle Facility. His research interests focus
+                      on aspects of navigation, mapping, planning and control as
+                      applied to autonomous marine systems and the
+                      interpretation of the data collected by these systems. He
+                      has always had a strong focus on fielding real systems in
+                      support of scientific applications.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="line"></div>
+
+      <section id="ts01">
+        <div class="content-wrap">
+          <div class="container clearfix">
+            <h3>Technical Session #1</h3>
+            <h4 style="margin-top: -2%">19th Sept, 2022 | 10:00 - 11:15</h4>
+            <table class="table table-bordered table-striped">
+              <thead></thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <strong><code>Paper ID</code></strong>
+                  </td>
+                  <td>
+                    <strong><code>Paper Title</code></strong>
+                  </td>
+                  <td>
+                    <strong><code>Presenting Author</code></strong>
+                  </td>
+                </tr>
+                <tr>
+                  <td>220606-001</td>
+                  <td>Underwater Exploration and Mapping</td>
+                  <td>
+                    Ioannis Rekleitis<br />
+                    University of South Carolina
+                  </td>
+                </tr>
+                <tr>
+                  <td>220604-002</td>
+                  <td>
+                    Improved Image-based Pose Regressor Models for Underwater
+                    Environments
+                  </td>
+                  <td>
+                    Luyuan Peng
+                    <br />
+                    National University of Singapore
+                  </td>
+                </tr>
+                <tr>
+                  <td>220526-002</td>
+                  <td>
+                    Underwater sampling and inspection with a dual-agent UAAV
+                  </td>
+                  <td>
+                    Andre Farinha<br />
+                    Imperial College London
+                  </td>
+                </tr>
+                <tr>
+                  <td>220518-001</td>
+                  <td>
+                    Experimental Verification of Underwater Glider Maneuvering
+                    in Constrained Environments
+                  </td>
+                  <td>
+                    Nina Mahmoudian<br />
+                    Purdue University
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <div class="line"></div>
+
+      <section id="ts02">
+        <div class="content-wrap">
+          <div class="container clearfix">
+            <h3>Technical Session #2</h3>
+            <h4 style="margin-top: -2%">19th Sept, 2022 | 11:30 - 12:45</h4>
+            <table class="table table-bordered table-striped">
+              <thead></thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <strong><code>Paper ID</code></strong>
+                  </td>
+                  <td>
+                    <strong><code>Paper Title</code></strong>
+                  </td>
+                  <td>
+                    <strong><code>Presenting Author</code></strong>
+                  </td>
+                </tr>
+                <tr>
+                  <td>220527-013</td>
+                  <td>
+                    EKF on Lie Groups for Autonomous Underwater Vehicles
+                    orientation initialization in presence of magnetic
+                    disturbances
+                  </td>
+                  <td>
+                    Alessandro Bucci<br />
+                    University of Florence
+                  </td>
+                </tr>
+                <tr>
+                  <td>220527-008</td>
+                  <td>
+                    Efficient Underwater Docking Detection using Knowledge
+                    Distillation and Artificial Image Generation
+                  </td>
+                  <td>
+                    Nina Mahmoudian<br />
+                    Purdue University
+                  </td>
+                </tr>
+                <tr>
+                  <td>220526-004</td>
+                  <td>
+                    In Situ Damping Parameter Estimation for an Underwater
+                    Vehicle Using Onboard Sensors
+                  </td>
+                  <td>
+                    Christian Busse<br />
+                    Hamburg University of Technology
+                  </td>
+                </tr>
+                <tr>
+                  <td>220429-004</td>
+                  <td>
+                    Impact of Natural Gas Seeps on the Navigation of an
+                    Autonomous Underwater Vehicle
+                  </td>
+                  <td>
+                    Matteo Bresciani<br />
+                    University of Pisa
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section id="ts03">
+        <div class="content-wrap">
+          <div class="container clearfix">
+            <h3>Technical Session #3</h3>
+            <h4 style="margin-top: -2%">19th Sept, 2022 | 14:00 - 15:15</h4>
+            <table class="table table-bordered table-striped">
+              <thead></thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <strong><code>Paper ID</code></strong>
+                  </td>
+                  <td>
+                    <strong><code>Paper Title</code></strong>
+                  </td>
+                  <td>
+                    <strong><code>Presenting Author</code></strong>
+                  </td>
+                </tr>
+                <tr>
+                  <td>220527-021</td>
+                  <td>
+                    Power Efficiency Autonomy for Long Duration AUV Operation
+                  </td>
+                  <td>
+                    Justin Chang<br />
+                    Scripps Institution of Oceanography
+                  </td>
+                </tr>
+                <tr>
+                  <td>220527-010</td>
+                  <td>
+                    Target-aware Informative Path Planning and semantic
+                    occupancy mapping for AUV autonomous inspections
+                  </td>
+                  <td>
+                    Leonardo Zacchini<br />
+                    University of Florence
+                  </td>
+                </tr>
+                <tr>
+                  <td>220526-003</td>
+                  <td>
+                    A software architecture for resilient long term autonomous
+                    missions of AUVs
+                  </td>
+                  <td>
+                    Peter Kampmann<br />
+                    ROSEN Technology and Research Center GmbH
+                  </td>
+                </tr>
+                <tr>
+                  <td>220602-001</td>
+                  <td>
+                    A Sampling Based Approach to Energy-Optimal Planning in
+                    Time-Varying Flows
+                  </td>
+                  <td>
+                    Raymond Young<br />
+                    Scripps Institution of Oceanography
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <div class="line"></div>
+
+      <section id="ts04">
+        <div class="content-wrap">
+          <div class="container clearfix">
+            <h3>Technical Session #4</h3>
+            <h4 style="margin-top: -2%">19th Sept, 2022 | 16:00 - 17:15</h4>
+            <table class="table table-bordered table-striped">
+              <thead></thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <strong><code>Paper ID</code></strong>
+                  </td>
+                  <td>
+                    <strong><code>Paper Title</code></strong>
+                  </td>
+                  <td>
+                    <strong><code>Presenting Author</code></strong>
+                  </td>
+                </tr>
+                <tr>
+                  <td>220625-001</td>
+                  <td>Development of the Amogh Survey System</td>
+                  <td>
+                    A Arasu Venkatesh<br />
+                    Larsen & Turbo (L&T)
+                  </td>
+                </tr>
+                <tr>
+                  <td>220604-003</td>
+                  <td>CoExploration for Adaptive AUV Survey</td>
+                  <td>
+                    Laura Lindzey<br />
+                    University of Washington<br />Applied Physics Laboratory
+                  </td>
+                </tr>
+                <tr>
+                  <td>220527-012</td>
+                  <td>
+                    Robotic swarm for Marine and Submarine Missions: Challenges
+                    and Perspectives
+                  </td>
+                  <td>
+                    Giulia De Masi<br />
+                    Technology Innovation Institute
+                  </td>
+                </tr>
+                <tr>
+                  <td>220527-005</td>
+                  <td>
+                    Underwater Object Detection of AUV based on Sonar Simulator
+                    utilizing Noise Addition
+                  </td>
+                  <td>
+                    Minsung Sung<br />
+                    Pohang University of Science and Technology (POSTECH)
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <div class="line"></div>
+
+      <section id="pl02">
+        <div class="content-wrap">
+          <div class="container clearfix">
+            <h3>Plenary Session - Prof. Daniela Rus</h3>
+            <h4 style="margin-top: -2%">20th Sept, 2022 | 08:45 - 09:30</h4>
+
+            <div id="posts" class="events small-thumbs">
+              <div class="entry clearfix">
+                <div class="entry-image center">
+                  <img src="img/DanielaRus1.jpg" alt="Prof Daniela Rus" />
+                </div>
+                <div class="entry-c">
+                  <div class="entry-title">
+                    <h3>
+                      Learning-based Design and Control of Underwater Robots
+                    </h3>
+                    <h4 style="margin-top: -3%"><code>Virtual</code></h4>
+                  </div>
+                  <div class="entry-content">
+                    <p>
+                      <strong>Abstract:</strong> The digitization of practically
+                      everything coupled with advances in machine learning, and
+                      advanced robotics promises a future with democratized use
+                      of machines and wide-spread use of AI and robots. While
+                      the last 60 years have defined the field of industrial
+                      robots and empowered hard bodied robots to execute complex
+                      assembly tasks in constrained industrial settings, the
+                      next 60 years could be ushering in our time with pervasive
+                      robots that come in a diversity of forms and materials,
+                      extending our reach into far-away worlds in novel ways. In
+                      this talk I will discuss recent developments in underwater
+                      robotics, focusing on (1) computational co-design of
+                      underwater robots and (2) new machine learning models that
+                      can run online on edge devices, enabling underwater
+                      learning-based perception and control underwater.
+                    </p>
+                    <p>
+                      <strong>About the speaker:</strong> Daniela Rus is the
+                      Andrew (1956) and Erna Viterbi Professor of Electrical
+                      Engineering and Computer Science, Director of the Computer
+                      Science and Artificial Intelligence Laboratory (CSAIL) at
+                      MIT. Prof. Rus's research interests are in robotics and
+                      artificial intelligence. The key focus of her research is
+                      to develop the science and engineering of autonomy. She is
+                      a MacArthur Fellow, a fellow of ACM, IEEE, AAAI and AAAS,
+                      a member of the National Academy of Engineering, and of
+                      the American Academy of Arts and Sciences. She is the
+                      recipient of the Engelberger Award for robotics, the IEEE
+                      RAS Pioneer award, IEEE RAS Technical award, Mass TLC
+                      Innovation Catalyst Award, and the IJCAI John McCarthy
+                      Award. She earned her PhD in Computer Science from Cornell
+                      University.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="line"></div>
+
+      <section id="ts05">
+        <div class="content-wrap">
+          <div class="container clearfix">
+            <h3>Technical Session #5</h3>
+            <h4 style="margin-top: -2%">20th Sept, 2022 | 10:00 - 11:15</h4>
+            <table class="table table-bordered table-striped">
+              <thead></thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <strong><code>Paper ID</code></strong>
+                  </td>
+                  <td>
+                    <strong><code>Paper Title</code></strong>
+                  </td>
+                  <td>
+                    <strong><code>Presenting Author</code></strong>
+                  </td>
+                </tr>
+                <tr>
+                  <td>220428-003</td>
+                  <td>Marine Snow Detection for Real Time Applications</td>
+                  <td>
+                    Alexandre Cardaillac<br />
+                    NTNU: Norwegian University of Science and Technology
+                  </td>
+                </tr>
+                <tr>
+                  <td>220428-001</td>
+                  <td>
+                    Towards Differentiable Rendering for Sidescan Sonar Imagery
+                  </td>
+                  <td>
+                    Yiping Xie<br />
+                    KTH Royal Institute of Technology
+                  </td>
+                </tr>
+                <tr>
+                  <td>220427-001</td>
+                  <td>
+                    Towards Dense Point Correspondence in Low-Resolution Sonar
+                    Image Sequences
+                  </td>
+                  <td>
+                    Louise Rixon Fuchs<br />
+                    Royal Institute of Technology
+                  </td>
+                </tr>
+                <tr>
+                  <td>220425-001</td>
+                  <td>AUV tracking and sampling of natural oil seeps</td>
+                  <td>
+                    Jimin Hwang<br />
+                    Memorial University
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <div class="line"></div>
+
+      <section id="ts06">
+        <div class="content-wrap">
+          <div class="container clearfix">
+            <h3>Technical Session #6</h3>
+            <h4 style="margin-top: -2%">20th Sept, 2022 | 11:30 - 12:45</h4>
+            <table class="table table-bordered table-striped">
+              <thead></thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <strong><code>Paper ID</code></strong>
+                  </td>
+                  <td>
+                    <strong><code>Paper Title</code></strong>
+                  </td>
+                  <td>
+                    <strong><code>Presenting Author</code></strong>
+                  </td>
+                </tr>
+                <tr>
+                  <td>220527-019</td>
+                  <td>
+                    Sonar-based Cable Detection for in-situ Calibration of
+                    Marine Sensors
+                  </td>
+                  <td>
+                    Nuno Cruz<br />
+                    Faculdade de Engenharia da Universidade do Porto
+                  </td>
+                </tr>
+                <tr>
+                  <td>220527-007</td>
+                  <td>
+                    Real-Time Automatic Wall Detection and Localization based on
+                    Side Scan Sonar Images
+                  </td>
+                  <td>
+                    Martin Aubard<br />
+                    OceanScan-MST
+                  </td>
+                </tr>
+                <tr>
+                  <td>220527-015</td>
+                  <td>
+                    Risk-based path planning for autonomous underwater vehicles
+                    in an oil spill environment
+                  </td>
+                  <td>
+                    Xi Chen<br />
+                    Memorial University of Newfoundland
+                  </td>
+                </tr>
+                <tr>
+                  <td>220524-002</td>
+                  <td>Autosub5: Preparing for Science</td>
+                  <td>
+                    Alberto Consensi<br />
+                    National Oceanography Centre
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <div class="line"></div>
+
+      <section id="ts07">
+        <div class="content-wrap">
+          <div class="container clearfix">
+            <h3>Technical Session #7</h3>
+            <h4 style="margin-top: -2%">20th Sept, 2022 | 14:00 - 15:15</h4>
+            <table class="table table-bordered table-striped">
+              <thead></thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <strong><code>Paper ID</code></strong>
+                  </td>
+                  <td>
+                    <strong><code>Paper Title</code></strong>
+                  </td>
+                  <td>
+                    <strong><code>Presenting Author</code></strong>
+                  </td>
+                </tr>
+                <tr>
+                  <td>220527-014</td>
+                  <td>
+                    Mechanical Design, Analysis and Development of an AUV for
+                    SAUVC
+                  </td>
+                  <td>
+                    Sukesh J R<br />
+                    IIITDM Kancheepuram, Chennai
+                  </td>
+                </tr>
+                <tr>
+                  <td>220527-003</td>
+                  <td>
+                    Design of an Autonomous ROV for Marine Growth Inspection and
+                    Cleaning
+                  </td>
+                  <td>
+                    Christian Mai<br />
+                    Aalborg University
+                  </td>
+                </tr>
+                <tr>
+                  <td>220527-024</td>
+                  <td>
+                    Multi-Robot Visual Control of Autonomous Soft Robotic Fish
+                  </td>
+                  <td>
+                    Juan Salazar<br />
+                    Massachusetts Institute of Technology
+                  </td>
+                </tr>
+                <tr>
+                  <td>220429-003</td>
+                  <td>
+                    Seawater absorption properties and equilibrium for carbon
+                    fiber reinforced epoxy autonomous underwater vehicle hull at
+                    1000m depth
+                  </td>
+                  <td>
+                    Ahmed Al-Tawil<br />
+                    Oslo Metropolitan University
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <div class="line"></div>
+
+      <section id="ts08">
+        <div class="content-wrap">
+          <div class="container clearfix">
+            <h3>Technical Session #8</h3>
+            <h4 style="margin-top: -2%">20th Sept, 2022 | 16:00 - 17:15</h4>
+            <table class="table table-bordered table-striped">
+              <thead></thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <strong><code>Paper ID</code></strong>
+                  </td>
+                  <td>
+                    <strong><code>Paper Title</code></strong>
+                  </td>
+                  <td>
+                    <strong><code>Presenting Author</code></strong>
+                  </td>
+                </tr>
+                <tr>
+                  <td>220528-001</td>
+                  <td>
+                    ROS Message Transport over Underwater Acoustic Links with
+                    ros_acomms
+                  </td>
+                  <td>
+                    Dennis Giaya<br />
+                    Woods Hole Oceanographic Institution
+                  </td>
+                </tr>
+                <tr>
+                  <td>220525-002</td>
+                  <td>
+                    An Open Source, Low Cost, 3D Printed Thruster For Autonomous
+                    Underwater and Surface Vehicles
+                  </td>
+                  <td>
+                    Milind Fernandes<br />
+                    Indian Institute of Technology, Kanpur
+                  </td>
+                </tr>
+                <tr>
+                  <td>220429-001</td>
+                  <td>
+                    DAVE Aquatic Virtual Environment: Toward a General
+                    Underwater Robotics Simulator
+                  </td>
+                  <td>
+                    Mabel Zhang<br />
+                    Open Robotics
+                  </td>
+                </tr>
+                <tr>
+                  <td>220530-001</td>
+                  <td>
+                    Concept development of a modular system for marine
+                    applications using ROS2 and micro-ROS
+                  </td>
+                  <td>
+                    Pablo Gutiérrez Flores<br />
+                    MARUM at the University of Bremen
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <div class="line"></div>
+
+      <section id="ts09">
+        <div class="content-wrap">
+          <div class="container clearfix">
+            <h3>Technical Session #09</h3>
+            <h4 style="margin-top: -2%">21st Sept, 2022 | 08:30 - 09:30</h4>
+            <table class="table table-bordered table-striped">
+              <thead></thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <strong><code>Paper ID</code></strong>
+                  </td>
+                  <td>
+                    <strong><code>Paper Title</code></strong>
+                  </td>
+                  <td>
+                    <strong><code>Presenting Author</code></strong>
+                  </td>
+                </tr>
+                <tr>
+                  <td>220530-002</td>
+                  <td>
+                    Implementation of the AQUALUNG: A new form of Autonomous
+                    Underwater Vehicle
+                  </td>
+                  <td>
+                    Abu M. Fuad<br />
+                    Ahsanullah University of Science and Technology
+                  </td>
+                </tr>
+                <tr>
+                  <td>220429-002</td>
+                  <td>
+                    Design and Testing of a Low-Profile Pressure-Tolerant L-band
+                    Antenna
+                  </td>
+                  <td>
+                    Ahmed Al-Tawil<br />
+                    OsloMet
+                  </td>
+                </tr>
+                <tr>
+                  <td>220527-009</td>
+                  <td>
+                    Time Synchronization Scheme of Underwater Platforms Using
+                    Wireless Acoustic and Optical Communication
+                  </td>
+                  <td>
+                    Yang Weng<br />
+                    The University of Tokyo
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <div class="line"></div>
+
+      <section id="ts10">
+        <div class="content-wrap">
+          <div class="container clearfix">
+            <h3>Technical Session #10</h3>
+            <h4 style="margin-top: -2%">21st Sept, 2022 | 10:00 - 11:15</h4>
+            <table class="table table-bordered table-striped">
+              <thead></thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <strong><code>Paper ID</code></strong>
+                  </td>
+                  <td>
+                    <strong><code>Paper Title</code></strong>
+                  </td>
+                  <td>
+                    <strong><code>Presenting Author</code></strong>
+                  </td>
+                </tr>
+                <tr>
+                  <td>220527-023</td>
+                  <td>
+                    Towards Underwater Visual Inertial Odometry : A systems
+                    approach
+                  </td>
+                  <td>
+                    Jagatpreet Nir <br />
+                    Northeastern University
+                  </td>
+                </tr>
+                <tr>
+                  <td>220527-022</td>
+                  <td>
+                    Online stereo camera calibration for underwater imaging
+                    systems
+                  </td>
+                  <td>
+                    Zhiyong Zhang<br />
+                    Northeastern University
+                  </td>
+                </tr>
+                <tr>
+                  <td>220524-003</td>
+                  <td>
+                    An Uncertainty-driven Sampling-based Online Coverage Path
+                    Planner for Seabed Mapping using Marine Robots
+                  </td>
+                  <td>
+                    Mingxi Zhou<br />
+                    University of Rhode Island
+                  </td>
+                </tr>
+                <tr>
+                  <td>220527-006</td>
+                  <td>
+                    Towards Explaining Autonomy with Verbalised Decision Tree
+                    States
+                  </td>
+                  <td>
+                    Konstantinos Gavriilidis<br />
+                    Heriot-Watt University
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <div class="line"></div>
+
+      <section id="pl03">
+        <div class="content-wrap">
+          <div class="container clearfix">
+            <h3>Plenary Session - Prof. Gianluca Antonelli</h3>
+            <h4 style="margin-top: -2%">21st Sept, 2022 | 11:30 - 12:45</h4>
+
+            <div id="posts" class="events small-thumbs">
+              <div class="entry clearfix">
+                <div class="entry-image center">
+                  <img src="img/gianluca.jpg" alt="Prof Gianluca Antonelli" />
+                </div>
+                <div class="entry-c">
+                  <div class="entry-title">
+                    <h3>
+                      Marine robotics challenges and applications - Current
+                      research at the Italian center ISME
+                    </h3>
+                    <h4 style="margin-top: -3%"><code>Virtual</code></h4>
+                  </div>
+                  <div class="entry-content">
+                    <p>
+                      <strong>Abstract:</strong> This talk will present the
+                      Italian interuniversity center ISME, established in 1999.
+                      ISME is composed by 9 Universities and has its background
+                      mainly in Systems and Control Engineering, Applied
+                      Mechanics and Computer Science. The activities of the ISME
+                      researchers will be presented trough brief overviews of
+                      some current and recent projects funded by National calls,
+                      the Italian Defense and the European Union. Topics will
+                      cover, among the others, underwater intervention, multiple
+                      vehicles coordination for geophysical applications, asset
+                      surveillance.
+                    </p>
+                    <p>
+                      <strong>About the speaker:</strong> Gianluca Antonelli is
+                      Full Professor at the ``University of Cassino and Southern
+                      Lazio'', Italy and IEEE Fellow since 2021. His research
+                      interests include marine and industrial robotics,
+                      multi-agent systems, identification. He has published more
+                      than 50 international journal papers and 130 conference
+                      papers, he is author of the book ``Underwater Robots''
+                      (Springer, 2003, 2006, 2014, 2018) and co-authored the
+                      chapter ``Underwater Robotics'' for the Springer Handbook
+                      of Robotics, (Springer, 2008, 2016). From 2016 to 2021 he
+                      has been member elected of the "IEEE Robotics & Automation
+                      Society" (RAS) Administrative Committee, he has been
+                      coordinator of the EuRobotics Topic Group in Marine
+                      Robotics, he has been secretary of the IEEE-Italy section,
+                      he has been chair of the IEEE RAS Italian Chapter, he has
+                      been Chair of the IEEE RAS Technical Committee in Marine
+                      Robotics. He served in the Editorial Board of the IEEE
+                      Transactions on Robotics, IEEE Transactions on Control
+                      Systems Technology, Springer Journal of Intelligent
+                      Service Robotics. In October 2021 and 2020, he was top 1%
+                      in the field "Industrial Engineering & Automation"
+                      according to common metrics and the SCOPUS database.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- #wrapper end -->
+
+    <!-- Go To Top
+    ============================================= -->
+    <div id="gotoTop" class="icon-angle-up"></div>
+
+    <!-- External JavaScripts
+    ============================================= -->
+    <script src="js/jquery.js"></script>
+    <script src="js/plugins.js"></script>
+
+    <!-- Footer Scripts
+    ============================================= -->
+    <script src="js/functions.js"></script>
+  </body>
+</html>
